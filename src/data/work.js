@@ -1,0 +1,38 @@
+export const WorkData = [
+  { 
+    id: 1,
+    company: "ADP Poland",
+    designation: "Specialist in supporting the integration of operational solutions",
+    dateJoining: "18/02/2021",
+    dateEnd: "present",
+    companyLogo: require("../assets/adp.png").default,
+    work: "Member of project group, as a specialist in supporting the integration of operational solutions. Designing, testing and implementing new applications and processes. Preapering scenarios of users tests of new applications and features. Testing APIs in Postman.",
+  },
+  {
+    id: 2,
+    company: "SADI Poland (Part of FCA Group)",
+    designation: "Expert in customs matters",
+    dateJoining: "01/04/2014",
+    dateEnd: "15/01/2021",
+    companyLogo: require("../assets/fca.png").default,
+    work: "Work in a group that was implementing SAP systems for a EU statistics porpouse in Poland. Generating EU declarations and reports for FCA group. Writing procedures, and participating in improvement projects. Preaparing customs declarations and answering queries. Taking part in implemantatnion bussines standards like ISO.",
+  },
+  {
+    id: 3,
+    company: "CampAmerica",
+    designation: "Guardian",
+    dateJoining: "06/2011",
+    dateEnd: "10/2011",
+    companyLogo: require("../assets/camp.png").default,
+    work: "During the studies I took part in work & travel cultural exchange program for students. I was a children guardian and sports instructor.",
+  },
+  {
+    id: 4,
+    company: "FAPI (electric installations company)",
+    designation: "Installator",
+    dateJoining: "2005",
+    dateEnd: "2012",
+    companyLogo: require("../assets/fapi.png").default,
+    work: "Work was performed during vacation periods and non-study time. Assembling of electrical installations, audio, visual and monitornig systems.",
+  },
+]
