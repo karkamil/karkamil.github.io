@@ -6,11 +6,11 @@ export const ProjectData = [
     tags:["ReactJS", "MaterialUI", "Styled Components", "EmailJS"],
     demo: {
       ready: true,
-      link: "https://karkamil.github.io/",
+      link: "https://karkamil.github.io/portfolio",
     },
       github: {
         ready: true,
-        link: "https://github.com/karkamil/karkamil.github.io",
+        link: "https://github.com/karkamil/portfolio/tree/master",
       },
     image: require("../assets/portfolio.png").default,
   },
