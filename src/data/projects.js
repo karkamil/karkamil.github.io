@@ -10,7 +10,7 @@ export const ProjectData = [
     },
       github: {
         ready: true,
-        link: "https://github.com/",
+        link: "https://github.com/karkamil/karkamil.github.io",
       },
     image: require("../assets/portfolio.png").default,
   },
