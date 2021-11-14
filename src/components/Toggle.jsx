@@ -9,11 +9,7 @@ const Container = styled.div`
   height: 25px;
   border-radius: 20px;
   border: 1px solid #999;
-  /* background-color: white; */
   position: relative;
-  /* top: 10px; */
-  /* right: 10px; */
-  /* z-index: 100; */
   display: flex;
   margin-right: 10px;
   align-items: center;
@@ -29,10 +25,8 @@ const Button = styled.div`
   position: absolute;
   width: 25px;
   height: 25px;
-  /* background-color: #999; */
   background: linear-gradient(to bottom, #888,#222);
   border-radius: 50%;
-  /* transform : scale(0.95); */
   cursor: pointer;
   box-shadow: 0 8px 40px rgba(0,0,0,0.5),
               inset 0 4px 4px rgba(255,255,255,0.2),

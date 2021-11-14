@@ -9,9 +9,6 @@ const Container = styled.div`
   margin: 16px 0px;
 `
 
-// #3F6357
-// #7AD49E
-
 const Separator = () => {
   return (
     <Container>

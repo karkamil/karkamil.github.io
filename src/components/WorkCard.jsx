@@ -14,7 +14,6 @@ const Container = styled.div`
 `
 
 const WorkLogo = styled.img`
-  /* height: 80px; */
   width: 80px;
   margin-left: 6px;
 `
@@ -36,7 +35,7 @@ const WorkDates = styled.div`
 const Dates = styled.label`
 
 `
-// ponizej do dodanie trick z stackoverflow - 2:10:43 https://www.youtube.com/watch?v=j0yZc2yfa7o
+
 const WorkDesc = styled.div`
   margin-top: 6px;
   text-align: left;
@@ -65,7 +64,3 @@ const WorkCard = ({item}) => {
 }
 
 export default WorkCard
-
-
-// 2:08:43 -- DODAC TEXT ALIGN DO ODPOWIENIEGO KOMPONENTU I MARGIN KTORY ON MA  A JA NIE
-// https://www.youtube.com/watch?v=j0yZc2yfa7o

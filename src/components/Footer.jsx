@@ -117,7 +117,6 @@ const Menu = styled.ul`
 const MenuEl = styled.li`
   list-style: none;
   font-size: 1.2em;
-  /* color: #; */
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
