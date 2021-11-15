@@ -67,7 +67,7 @@ const About = () => {
     <Container>
       <AboutTop>
         <AboutInfo>
-          Hello There 👋, I am <br/>
+          Hello There, I am <br/>
           <InfoName > Kamil Karchut</InfoName>
           <br/> <span ref={el}></span>
         </AboutInfo>

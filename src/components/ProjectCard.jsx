@@ -71,6 +71,7 @@ const Tag = styled.label`
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
+  font-size: 14px;
 `
 
 const ProjectImage = styled.img`

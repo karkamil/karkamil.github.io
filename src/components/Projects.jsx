@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { ProjectData } from '../data/projects'
 import ProjectCard from './ProjectCard'
 import Separator from './Separator'
-import { ArrowRight } from '@material-ui/icons'
+import { UnfoldLess, UnfoldMore } from '@material-ui/icons'
 import { small } from '../responsive'
 
 const Container = styled.div`
@@ -27,54 +27,48 @@ const Title = styled.label`
   cursor: pointer;
 `
 
-const Close = styled.label`
-  cursor: pointer;
-`
-
 const ProjectContainer = styled.div`
 
 `
 
-const ArrowRightIcon = styled(ArrowRight)`
+const UnfoldMoreIcon = styled(UnfoldMore)`
   color: #3F6357;
-  
+  cursor: pointer;
+`
+
+const UnfoldLessIcon = styled(UnfoldLess)`
+  color: #3F6357;
   cursor: pointer;
 `
 
 
 const ProjectsCopy = () => {
   const data = ProjectData;
-  const [projects, setProjects] = useState(false)
+  const [unfold, setUnfold] = useState(false)
   
   return (
     <Container>
       <Separator />
-      <TitleContainer onClick={() => setProjects(!projects)}>
-
-      <ArrowRightIcon style={{ transform: projects && "rotate(90deg)" }} fontSize="large"/>
-      <Title >
-        {"<Projects>"}
-        {!projects && <Close>
-          ...
-          {"</Projects>"}
-        </Close>}
+      <TitleContainer onClick={() => setUnfold(!unfold)} >
+        {unfold && 
+        <UnfoldLessIcon fontSize= "large"/>
+        }
+        {!unfold && 
+        <UnfoldMoreIcon fontSize= "large"/>
+        }
+      <Title>
+        Projects
       </Title>
       </TitleContainer>
       <ProjectContainer>
-        {projects && data.map((project)=>{
+        {unfold && data.map((project)=>{
           return <ProjectCard project={project} key={project.id}/>
         })
         }
-        {!projects && data.slice(1, 2).map((project)=>{
+        {!unfold && data.slice(1, 2).map((project)=>{
           return <ProjectCard project={project} key={project.id}/>
         })}
       </ProjectContainer>
-      <Title onClick={() => setProjects(!projects)}>
-        {projects && <Close>
-
-          {"</Projects>"}
-        </Close>}
-      </Title>
     </Container>
   )
 }

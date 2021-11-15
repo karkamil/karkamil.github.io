@@ -15,7 +15,7 @@ export const WorkData = [
     dateJoining: "01/04/2014",
     dateEnd: "15/01/2021",
     companyLogo: require("../assets/fca.png").default,
-    work: "Work in a group that was implementing SAP systems for a EU statistics porpouse in Poland. Generating EU declarations and reports for FCA group. Writing procedures, and participating in improvement projects. Preaparing customs declarations and answering queries. Taking part in implemantatnion bussines standards like ISO.",
+    work: "Work in a group that was implementing SAP systems for a EU statistics purpose in Poland. Generating EU declarations and reports for FCA group. Writing procedures, and participating in improvement projects. Preaparing customs declarations and answering queries. Taking part in implementation bussines standards like ISO.",
   },
   {
     id: 3,

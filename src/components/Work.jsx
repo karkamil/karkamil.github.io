@@ -1,4 +1,4 @@
-import { ArrowRight } from '@material-ui/icons'
+import { UnfoldLess, UnfoldMore } from '@material-ui/icons'
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { WorkData } from '../data/work'
@@ -17,7 +17,12 @@ const TitleContainer = styled.div`
   display: flex; 
   align-items: center;
 `
-const ArrowRightIcon = styled(ArrowRight)`
+const UnfoldMoreIcon = styled(UnfoldMore)`
+  color: #3F6357;
+  cursor: pointer;
+`
+
+const UnfoldLessIcon = styled(UnfoldLess)`
   color: #3F6357;
   cursor: pointer;
 `
@@ -30,11 +35,6 @@ const Title = styled.label`
   cursor: pointer;
 `
 
-const Close = styled.label`
-  cursor: pointer;
-`
-
-
 const WorkList = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -45,41 +45,35 @@ const WorkList = styled.div`
 
 const Work = () => {
   const data = WorkData;
-  const [projects, setProjects] = useState(false)
+  const [unfold, setUnfold] = useState(false)
 
   return (
     <Container>
 
       <Separator />
-      <TitleContainer onClick={() => setProjects(!projects)}>
-
-      <ArrowRightIcon style={{ transform: projects && "rotate(90deg)" }} fontSize="large"/>
-      <Title >
-        {"<Work>"}
-        {!projects && <Close>
-          ...
-        {"</Work>"}
-        </Close>}
+      <TitleContainer onClick={() => setUnfold(!unfold)} >
+        {unfold && 
+        <UnfoldLessIcon fontSize= "large"/>
+        }
+        {!unfold && 
+        <UnfoldMoreIcon fontSize= "large"/>
+        }
+      <Title>
+        Work
       </Title>
       </TitleContainer>
       <WorkList>
-        {projects &&  data.map((item) => {
+        {unfold &&  data.map((item) => {
           return(
             <WorkCard key={item.id} item ={item} />
           )
         })}
-        {!projects &&  data.slice(0, 2).map((item) => {
+        {!unfold &&  data.slice(0, 2).map((item) => {
           return(
             <WorkCard key={item.id} item ={item} />
           )
         })}
       </WorkList>
-      <Title >
-        {projects && 
-        <Close onClick={() => setProjects(!projects)}>
-          {"</Work>"}
-        </Close>}
-      </Title>
     </Container>
   )
 }

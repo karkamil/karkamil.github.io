@@ -7,8 +7,6 @@ import { useContext, useState } from "react";
 import { ThemeContext } from "../context";
 import WebMenu from "./WebMenu";
 
-
-
 const animateWave1 = keyframes`
   0%{
     background-position-x: 1000px;
@@ -149,7 +147,9 @@ const CloseContainer = styled.div`
 `
 
 const CloseMobile = styled(HighlightOffOutlined)`
-  cursor: pointer;  
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 12px; 
 `
 
 const MobileMenuElement = styled.div`
@@ -201,7 +201,7 @@ const Header = () => {
       <ContainerLeft>
         <Toggle />
         <DownloadCon>
-          <Download style={{color: theme.state.darkMode ? "white" : ""}} download href={require('../assets/cven.pdf').default}>
+          <Download style={{color: theme.state.darkMode ? "white" : ""}} download href={'cvenkamilkarchut.pdf'}>
             <DownloadIcon />
             <ShowText>Download </ShowText>CV
           </Download>

@@ -170,7 +170,7 @@ const Contact = () => {
   return (
     <Container>
       <Separator />
-      <SectionTitle>{`<Contact />`}</SectionTitle>
+      <SectionTitle>Contact</SectionTitle>
       <ContactWrapper>
         <ContactLeft>
           <ContactTitle>
@@ -215,7 +215,7 @@ const Contact = () => {
       </ContactWrapper>
       <DownloadCont>
             <DownloadButtton>
-            <Download download href={require('../assets/cven.pdf').default} style={{color: theme.state.darkMode ? "white" : ""}}>
+            <Download download href={'cvenkamilkarchut.pdf'} style={{color: theme.state.darkMode ? "white" : ""}}>
               <Icon />
               Download CV
             </Download>
