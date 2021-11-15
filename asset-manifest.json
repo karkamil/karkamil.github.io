@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.b90601cd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b90601cd.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cdca64fe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cdca64fe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
-    "static/js/2.ad23d995.chunk.js": "/portfolio/static/js/2.ad23d995.chunk.js",
-    "static/js/2.ad23d995.chunk.js.map": "/portfolio/static/js/2.ad23d995.chunk.js.map",
+    "static/js/2.21465ffa.chunk.js": "/portfolio/static/js/2.21465ffa.chunk.js",
+    "static/js/2.21465ffa.chunk.js.map": "/portfolio/static/js/2.21465ffa.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/js/2.ad23d995.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ad23d995.chunk.js.LICENSE.txt",
+    "static/js/2.21465ffa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.21465ffa.chunk.js.LICENSE.txt",
     "static/media/coding.png": "/portfolio/static/media/coding.cec9031e.png",
     "static/media/crypto.png": "/portfolio/static/media/crypto.84617913.png",
-    "static/media/cven.pdf": "/portfolio/static/media/cven.38328969.pdf",
     "static/media/devinit.png": "/portfolio/static/media/devinit.c26ec7b7.png",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.300ab24f.png",
     "static/media/fca.png": "/portfolio/static/media/fca.f1d428d2.png",
@@ -27,7 +26,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
-    "static/js/2.ad23d995.chunk.js",
-    "static/js/main.b90601cd.chunk.js"
+    "static/js/2.21465ffa.chunk.js",
+    "static/js/main.cdca64fe.chunk.js"
   ]
 }
