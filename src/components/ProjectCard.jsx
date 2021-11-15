@@ -18,7 +18,7 @@ const ProjectInfo = styled.div`
 `
 
 const ProjectTitle = styled.label`
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
 `
 
@@ -50,7 +50,7 @@ const DemoIcon = styled(Language)`
 `
 
 const MyGithub = styled(GitHub)`
-    display: flex;
+  display: flex;
   align-items: center;
   margin-right: 4px;
 `
@@ -71,7 +71,6 @@ const Tag = styled.label`
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
-  font-size: 14px;
 `
 
 const ProjectImage = styled.img`

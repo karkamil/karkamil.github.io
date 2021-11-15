@@ -28,7 +28,8 @@ const Title = styled.label`
 `
 
 const ProjectContainer = styled.div`
-
+  font-size: 18px;
+  ${small({fontSize: "16px"})}
 `
 
 const UnfoldMoreIcon = styled(UnfoldMore)`
