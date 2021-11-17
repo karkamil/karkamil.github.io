@@ -6,7 +6,7 @@ export const WorkData = [
     dateJoining: "18/02/2021",
     dateEnd: "present",
     companyLogo: require("../assets/adp.png").default,
-    work: "Member of project group, as a specialist in supporting the integration of operational solutions. Designing, testing and implementing new applications and processes. Preapering scenarios of users tests of new applications and features. Testing APIs in Postman.",
+    work: "Crutial member of project team, specialising in HR and payroll solutions as a specialist in supporting the integration of operational solutions. I desined, tested and implemented new applications and processes. My responsibility was to prepare scenarios for testing new applications and features by users. Testing APIs in Postman.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const WorkData = [
     dateJoining: "01/04/2014",
     dateEnd: "15/01/2021",
     companyLogo: require("../assets/fca.png").default,
-    work: "Work in a group that was implementing SAP systems for a EU statistics purpose in Poland. Generating EU declarations and reports for FCA group. Writing procedures, and participating in improvement projects. Preaparing customs declarations and answering queries. Taking part in implementation bussines standards like ISO.",
+    work: "I was an integral part of a group working on implementing SAP systems to comply with EU statistical regulations. My responsibilities included generating EU declarations and reports for FCA group, writing standard operating procedures, and participating in improvement projects. Preaparing declarations and answering customs queries. I introduced improvements in the project and also implemented business standards (ISO).",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const WorkData = [
     dateJoining: "06/2011",
     dateEnd: "10/2011",
     companyLogo: require("../assets/camp.png").default,
-    work: "During the studies I took part in work & travel cultural exchange program for students. I was a children guardian and sports instructor.",
+    work: "Work and travel cultural exchange during the summer in college. I worked as a guardian and sport instructor for the children attending the camp.",
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const WorkData = [
     dateJoining: "2005",
     dateEnd: "2012",
     companyLogo: require("../assets/fapi.png").default,
-    work: "Work was performed during vacation periods and non-study time. Assembling of electrical installations, audio, visual and monitornig systems.",
+    work: "Part-time job carried out during vacation and study-free time. Assembling of electrical installations, audio, visual and monitornig systems.",
   },
 ]

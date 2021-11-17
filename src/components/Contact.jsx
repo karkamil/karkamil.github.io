@@ -174,7 +174,7 @@ const Contact = () => {
       <ContactWrapper>
         <ContactLeft>
           <ContactTitle>
-            Want to get in touch? Contact with me.
+            Want to get in touch? Contact me.
           </ContactTitle>
           <ContactInfo>
             <ContactInfoItem>
