@@ -6,7 +6,7 @@ export const WorkData = [
     dateJoining: "18/02/2021",
     dateEnd: "present",
     companyLogo: require("../assets/adp.png").default,
-    work: "Crutial member of project team, specialising in HR and payroll solutions as a specialist in supporting the integration of operational solutions. I desined, tested and implemented new applications and processes. My responsibility was to prepare scenarios for testing new applications and features by users. Testing APIs in Postman.",
+    work: "Crucial member of a project team, specialising in HR and payroll solutions as a specialist in supporting the integration of operational solutions. I desined, tested and implemented new applications and processes. My responsibility was to prepare scenarios for testing new applications and features by users. Testing APIs in Postman.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const WorkData = [
     dateJoining: "01/04/2014",
     dateEnd: "15/01/2021",
     companyLogo: require("../assets/fca.png").default,
-    work: "I was an integral part of a group working on implementing SAP systems to comply with EU statistical regulations. My responsibilities included generating EU declarations and reports for FCA group, writing standard operating procedures, and participating in improvement projects. Preaparing declarations and answering customs queries. I introduced improvements in the project and also implemented business standards (ISO).",
+    work: "I was an integral part of a group working on implementing SAP systems to comply with EU statistical regulations. My responsibilities included generating EU declarations and reports for FCA group, writing standard operating procedures, and participating in improvement projects. Preparing declarations and answering customs queries. I introduced improvements in the project and also implemented business standards (ISO).",
   },
   {
     id: 3,

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { PanoramaOutlined, LaptopMac, WorkOutlineOutlined, PhoneInTalkOutlined } from '@material-ui/icons';
-// import  {LaptopMac} from '@material-ui/icons';
 
 const Container = styled.div`
   position: fixed;
