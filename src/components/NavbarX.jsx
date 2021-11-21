@@ -56,6 +56,7 @@ const NavbarX = () => {
     }
     console.log(dt, menu)
   
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[menu]);
 
   useEffect(() => {
